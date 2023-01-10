@@ -1,1 +1,12 @@
 # DESeq2Mac
+if (!requireNamespace("BiocManager", quietly = TRUE))  install.packages("BiocManager")
+BiocManager::install("DESeq2")
+BiocManager::install("airway")
+BiocManager::install("ggplot2")
+BiocManager::install("EnhancedVolcano")
+BiocManager::install("dplyr")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("AnnotationDbi")
+BiocManager::install("genefilter")
+install.packages("pheatmap")
+install.packages("PoiClaClu")

@@ -1,4 +1,4 @@
-# all packages is necessary for airway differential expression(DE) with DESeq2
+# all packages is necessary for differential expression(DE) with DESeq2
 
 if (!requireNamespace("BiocManager", quietly = TRUE))  install.packages("BiocManager")
 BiocManager::install("DESeq2")
